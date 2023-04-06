@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(13, 25, 44);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: absolute;
+    padding: 24px ;
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;  
+}
+
+
+.img-top {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 24px ;
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    background-color: cyan;
+    width: 302px;
+    height: 302px;
+    top: 25px;
+    left: 25px;
+    border-radius: 8px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-overlay:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.price {
+    position: relative;
+    display: flex;
+    bottom: 25%;
+    left: 0;
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+.clock {
+    position: relative;
+    display: flex;
+    bottom: 25%;
+    right: 0;
+    color: #8BACD9;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+}
+.price img{
+    margin-right: 7px
+}
+.clock img{
+    margin-right: 5px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 15px 0;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author img{ 
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    margin-top: 15px;  
+
+}
+.creator{
+    color: #8BACD9;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.hoverontext{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hoverontext:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
